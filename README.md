@@ -1,2 +1,2 @@
 # AutoC
-"Remove an anoying webpage barrier from a certain website and allow scroll automatically"
+"Remove an annoying webpage barrier from a certain website and allow scroll automatically"
