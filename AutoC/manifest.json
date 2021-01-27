@@ -1,0 +1,17 @@
+{
+    "name": "AutoChegg",
+    "version": "1.0",
+    "permissions": ["*://*.chegg.com/*","activeTab", "tabs", "webNavigation"],
+    "description": "Remove the Chegg Popup and allow scroll automatically",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "content_scripts":[
+        {
+        "matches": ["*://*.chegg.com/*"],
+        "run_at": "document_end",
+        "js": ["myscript.js"]
+    }
+],
+    "manifest_version":2
+}
